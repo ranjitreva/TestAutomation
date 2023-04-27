@@ -1,5 +1,5 @@
-from LearnSelenium.AutomationFramework.generic.base_test6 import BaseTest
-from LearnSelenium.AutomationFramework.generic.utility import Excel
+from generic.base_test6 import BaseTest
+from generic.utility import Excel
 
 
 class TestScript1(BaseTest):      # Here we are using inheritance concept (child class)

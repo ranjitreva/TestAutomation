@@ -1,4 +1,4 @@
-from LearnSelenium.AutomationFramework.generic.base_test3 import BaseTest
+from generic.base_test3 import BaseTest
 
 
 class TestScript1(BaseTest):       # Here we are using inheritance concept (child class)
