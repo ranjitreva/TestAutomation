@@ -1,6 +1,6 @@
 import pytest
 
-from generic.base_test10 import BaseTest
+from generic.base_test12 import BaseTest
 from pages.login_page import LoginPage
 from pages.home_page import HomePage
 from generic.utility import Excel
