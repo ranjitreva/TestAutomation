@@ -9,8 +9,8 @@ from generic.utility import Excel
 class TestValidLogin(BaseTest):   # Here we are using inheritance concept (child class)
     @pytest.mark.run(order=1)
     def test_valid_login(self):
-        user_name = Excel.get_cell_value("../data/Input.xlsx", "valid_login", 2, 1)   # Creating an object of user_name [get_cell_value(file_path, sheet, row, col)]
-        password = Excel.get_cell_value("../data/Input.xlsx", "valid_login", 2, 2)    # Creating an object of password [get_cell_value(file_path, sheet, row, col)]
+        user_name = Excel.get_cell_value("./data/Input.xlsx", "valid_login", 2, 1)   # Creating an object of user_name [get_cell_value(file_path, sheet, row, col)]
+        password = Excel.get_cell_value("./data/Input.xlsx", "valid_login", 2, 2)    # Creating an object of password [get_cell_value(file_path, sheet, row, col)]
         login_page = LoginPage(self.driver)        # Creating an object of login_page
         # Enter valid username
         login_page.set_username(user_name)         # Call the method
